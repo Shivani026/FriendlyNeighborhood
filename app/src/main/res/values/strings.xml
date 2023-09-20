@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Friendly Neighborhood</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="friendly_neighborhood">Friendly Neighborhood</string>
+    <string name="signup">Sign Up</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">Email</string>
+    <string name="Textview">Text view</string>
+    <string name="select_type">Select Type</string>
+    <string-array name="type">
+        <item>Owner</item>
+        <item>Tenant</item>
+        <item>Secretary</item>
+    </string-array>
+    <string name="contact">Contact</string>
+    <string name="already_have_an_account_login">Already have an account? <u>Login</u></string>
+    <string name="new_user_signup">New User? <u>SignUp</u></string>
+    <string name="setpassword">Set password</string>
+    <string name="reenter">Re-enter password</string>
+    <string name="selectsociety">Select your residential society</string>
+    <string name="selectblockflat">Select Block and Flat</string>
+    <string name="cantfind">Can\'t find your society? email us at <u>friendlyneighborhood@gmail.com</u></string>
+    <string name="next">Next</string>
+    <string name="welcome">Welcome Aboard</string>
+    <string name="forum">Forum</string>
+    <string name="payment">Payments</string>
+    <string name="events">Events</string>
+    <string name="create">Create</string>
+    <string name="reserve">Reservations</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Forum">Forum</string>
+    <string name="enteramount">Enter amount</string>
+    <string name="Pay">Pay</string>
+    <string name="notifications">Notifications</string>
+    <string name="check">Reserve</string>
+    <string name="setTime">Set time</string>
+    <string name="occasion">Occasion</string>
+    <string name="user">User</string>
+    <string name="details">Flat details</string>
+    <string name="content">Content</string>
+    <string name="createforum">Add Post</string>
+    <string name="post">Post</string>
+    <string name="write">Write something...</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="notification_text">Notification Text</string>
+    <string name="time_stamp">Time Stamp</string>
+    <string name="update">Update</string>
+    <string name="logout">Logout</string>
+    <string name="comment">Comment</string>
+    <string name="select_society">Select Society</string>
+    <string name="select_your_block_and_flat_no">Select Your Block and Flat No.</string>
+    <string name="enter_venue">Enter Venue</string>
+    <string name="event_details">Event Details</string>
+    <string name="paidby">PaidBy</string>
+    <string name="payeedetails">PayeeDetails</string>
+    <string name="payment_reason">Payment Reason</string>
+    <string name="txn_amount">Txn Amount</string>
+    <string name="txn_date_time">Txn Date Time</string>
+    <string name="event_type">Event Type</string>
+    <string name="events_and_reservations">Events and Reservations</string>
+    <string name="print_to_pdf">Print to Pdf</string>
+    <string name="sr_no">Sr No.</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="date_time">Date Time</string>
+    <string name="block_flat">Block-Flat</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="total">Total</string>
+    <string name="select_from_date">Select From Date</string>
+    <string name="select_to_date">Select To Date</string>
+    <string name="type">Type</string>
+    <string name="venue">Venue</string>
+    <string name="date">Date</string>
+
+</resources>

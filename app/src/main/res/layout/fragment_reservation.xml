@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ReservationFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="@string/reserve"
+        android:textColor="@color/purple_200"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ReserveBtn"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginRight="100dp"
+        android:enabled="false"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/check"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:id="@+id/occasion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/occasion"/>
+
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        drawable="@drawable/ic_baseline_comment_24"
+        text="@string/forum" />
+    <tab
+        drawable="@drawable/ic_baseline_currency_rupee_24"
+        text="@string/payment" />
+    <tab
+        drawable="@drawable/ic_baseline_notifications_none_24"
+        text="@string/notifications" />
+    <tab
+        drawable="@drawable/ic_baseline_event_24"
+        text="@string/events" />
+    <tab
+        drawable="@drawable/ic_baseline_bungalow_24"
+        text="@string/reserve" />
+</Tabs>

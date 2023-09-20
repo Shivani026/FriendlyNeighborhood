@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+  <TextView
+      android:id="@+id/LoginTitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="130dp"
+      android:fontFamily="@font/poppinsbold"
+      android:gravity="center"
+      android:text="@string/login"
+      android:textColor="@color/purple_200"
+      android:textSize="30sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/LoginEmail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="60dp"
+      android:layout_marginRight="30dp"
+      android:drawableEnd="@drawable/ic_user"
+      android:fontFamily="@font/poppinsmedium"
+      android:hint="@string/email"
+      android:inputType="textEmailAddress"
+      android:maxLines="1"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/LoginTitle" />
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/LoginPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginRight="30dp"
+      android:drawableEnd="@drawable/ic_baseline_lock_24"
+      android:fontFamily="@font/poppinsmedium"
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      android:maxLength="12"
+      android:maxLines="1"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/LoginEmail" />
+
+  <Button
+      android:id="@+id/LoginBtn"
+      style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="76dp"
+      android:text="@string/login"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/LoginPassword"
+      tools:ignore="MissingConstraints" />
+
+  <TextView
+      android:id="@+id/RedirectToSignUp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:fontFamily="@font/poppinsmedium"
+      android:gravity="center"
+      android:text="@string/new_user_signup"
+      android:textColor="@color/purple_200"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/LoginBtn" />
+
+  <ProgressBar
+      android:id="@+id/progressBarLogin"
+      style="?android:attr/progressBarStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="20dp"
+      android:visibility="invisible"
+      app:layout_constraintBottom_toTopOf="@+id/LoginBtn"
+      app:layout_constraintEnd_toEndOf="@+id/LoginBtn"
+      app:layout_constraintTop_toBottomOf="@+id/LoginPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
